@@ -4,7 +4,7 @@ const Dashboard = () => {
   return (
     <div>
       <h1>📊 Tableau de bord</h1>
-      <p>Bienvenue dans votre interface de gestion.</p>
+      <p>Bienvenue dans votre interface de gestion. test</p>
     </div>
   );
 };
