@@ -1,0 +1,95 @@
+/* src/components/ProduitPage.css */
+.produit-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.produit-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.produit-table th,
+.produit-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.produit-table th {
+  background-color: #f4f4f4;
+}
+
+.btn {
+  padding: 6px 12px;
+  margin: 0 4px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+.statut-actif {
+  color: green;
+  font-weight: bold;
+}
+
+.statut-desactive {
+  color: red;
+  font-weight: bold;
+}
+
+.desactive {
+  background-color: #f9f9f9;
+  opacity: 0.6;
+}
+
+.produit-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.produit-form input[type="text"],
+.produit-form input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.produit-form label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.produit-form .btn {
+  background-color: #2ecc71;
+}
+
+.produit-form .btn:hover {
+  background-color: #27ae60;
+}
